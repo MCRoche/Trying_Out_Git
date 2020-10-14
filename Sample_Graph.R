@@ -16,4 +16,4 @@ x <- data.frame(a=runif(10),
 # Some graph:
 ggplot(x, aes(a,b)) +
   geom_point() +
-  xlab("Hello")
+  xlab("Goodbye")
