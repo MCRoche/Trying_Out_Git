@@ -17,4 +17,5 @@ x <- data.frame(a=runif(10),
 ggplot(x, aes(a,b)) +
   geom_point() +
   xlab("Goodbye") +
-  ylab("Down")
+  ylab("Down") +
+  ggtitle("Graph Title")
