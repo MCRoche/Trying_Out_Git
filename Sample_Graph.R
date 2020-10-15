@@ -17,4 +17,8 @@ x <- data.frame(a=runif(10),
 ggplot(x, aes(a,b)) +
   geom_point() +
   xlab("Goodbye") +
+<<<<<<< HEAD
   ylab("Down")
+=======
+  ylab("Sideways")
+>>>>>>> 47cc880a16c0dda6d89a60588e406bc7b4086b82
