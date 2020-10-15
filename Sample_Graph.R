@@ -17,5 +17,9 @@ x <- data.frame(a=runif(10),
 ggplot(x, aes(a,b)) +
   geom_point() +
   xlab("Goodbye") +
+<<<<<<< HEAD
   ylab("Sideways") +
+=======
+  ylab("Up") +
+>>>>>>> my-new-branch
   ggtitle("Graph Title")
