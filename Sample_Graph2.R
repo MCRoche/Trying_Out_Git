@@ -1,7 +1,7 @@
 ##----
 ##
 ##  Test File: Sample_Graph2.R
-##
+##    by MC
 ##----
 
 #' This file makes a sample graph.
@@ -10,8 +10,8 @@
 library(ggplot2)
 
 # Some points:
-x <- data.frame(a=runif(20),
-                b=runif(20))
+x <- data.frame(a=runif(30),
+                b=runif(30))
 
 # Some graph:
 ggplot(x, aes(a,b)) +
