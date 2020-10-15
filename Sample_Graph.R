@@ -17,4 +17,4 @@ x <- data.frame(a=runif(10),
 ggplot(x, aes(a,b)) +
   geom_point() +
   xlab("Goodbye") +
-  ylab("Up")
+  ylab("Sideways")
